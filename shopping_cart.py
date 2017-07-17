@@ -69,6 +69,11 @@ def look_up_product_by_id(product_id):
     matching_product = [product for product in products if product["id"] == product_id]
     return matching_product[0]
 
+running_total = 0
+
 for product_id in product_ids:
     product = look_up_product_by_id(product_id)
-    print(product["name"], product["price"])
+    running_total += product["price"]
+    print(" + ", product["name"], product["price"])
+
+print("THE TOTAL PRICE IS", running_total)
