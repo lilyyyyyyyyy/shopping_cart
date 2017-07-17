@@ -24,6 +24,14 @@ products = [
 #product_id = input("Please input a valid product identifier:")
 #print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
 
+#while True:
+#   product_id = input("Please input a valid product identifier:")
+#   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+
 while True:
-   product_id = input("Please input a valid product identifier:")
-   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+    product_id = input("Please input a valid product identifier:")
+    if product_id == "DONE":
+        print("THANKS ALL DONE HERE")
+        break
+    else:
+        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
