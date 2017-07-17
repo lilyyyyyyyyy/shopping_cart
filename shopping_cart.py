@@ -28,10 +28,21 @@ products = [
 #   product_id = input("Please input a valid product identifier:")
 #   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
 
+#while True:
+#    product_id = input("Please input a valid product identifier:")
+#    if product_id == "DONE":
+#        print("THANKS ALL DONE HERE")
+#        break
+#    else:
+#        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+
+product_ids = []
+
 while True:
     product_id = input("Please input a valid product identifier:")
     if product_id == "DONE":
-        print("THANKS ALL DONE HERE")
         break
     else:
-        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+        product_ids.append(product_id)
+
+print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
