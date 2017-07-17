@@ -21,4 +21,6 @@ products = [
     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
 ]
 
-print(products)
+product_id = input("Please input a valid product identifier:")
+
+print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
