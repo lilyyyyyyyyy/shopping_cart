@@ -1,0 +1,1931 @@
+Last login: Sun Jul 16 22:02:48 on ttys000
+:~ lily$ git diff
+Not a git repository
+To compare two paths outside a working tree:
+usage: git diff [--no-index] <path> <path>
+:~ lily$ git remote -v
+fatal: Not a git repository (or any of the parent directories): .git
+:~ lily$ python3
+Python 3.6.1 |Anaconda 4.4.0 (x86_64)| (default, May 11 2017, 13:04:09) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+:~ lily$ cd ~/Users/lily/Desktop/python-practice/groceries.py
+-bash: cd: /Users/lily/Users/lily/Desktop/python-practice/groceries.py: No such file or directory
+:~ lily$ pwd
+/Users/lily
+:~ lily$ git diff
+Not a git repository
+To compare two paths outside a working tree:
+usage: git diff [--no-index] <path> <path>
+:~ lily$ git init
+Initialized empty Git repository in /Users/lily/.git/
+:~ lily$ products = [
+-bash: products: command not found
+:~ lily$     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
+-bash: {id:1,: command not found
+:~ lily$     {"id":2, "name": "All-Seasons Salt", "department": "pantry", "aisle": "spices seasonings", "price": 4.99},
+-bash: {id:2,: command not found
+:~ lily$     {"id":3, "name": "Robust Golden Unsweetened Oolong Tea", "department": "beverages", "aisle": "tea", "price": 2.49},
+-bash: {id:3,: command not found
+:~ lily$     {"id":4, "name": "Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce", "department": "frozen", "aisle": "frozen meals", "price": 6.99},
+-bash: {id:4,: command not found
+:~ lily$     {"id":5, "name": "Green Chile Anytime Sauce", "department": "pantry", "aisle": "marinades meat preparation", "price": 7.99},
+-bash: {id:5,: command not found
+:~ lily$     {"id":6, "name": "Dry Nose Oil", "department": "personal care", "aisle": "cold flu allergy", "price": 21.99},
+-bash: {id:6,: command not found
+:~ lily$     {"id":7, "name": "Pure Coconut Water With Orange", "department": "beverages", "aisle": "juice nectars", "price": 3.50},
+-bash: {id:7,: command not found
+:~ lily$     {"id":8, "name": "Cut Russet Potatoes Steam N' Mash", "department": "frozen", "aisle": "frozen produce", "price": 4.25},
+-bash: {id:8,: command not found
+:~ lily$     {"id":9, "name": "Light Strawberry Blueberry Yogurt", "department": "dairy eggs", "aisle": "yogurt", "price": 6.50},
+-bash: {id:9,: command not found
+:~ lily$     {"id":10, "name": "Sparkling Orange Juice & Prickly Pear Beverage", "department": "beverages", "aisle": "water seltzer sparkling water", "price": 2.99},
+-bash: {id:10,: command not found
+:~ lily$     {"id":11, "name": "Peach Mango Juice", "department": "beverages", "aisle": "refrigerated", "price": 1.99},
+-bash: {id:11,: command not found
+:~ lily$     {"id":12, "name": "Chocolate Fudge Layer Cake", "department": "frozen", "aisle": "frozen dessert", "price": 18.50},
+-bash: {id:12,: command not found
+:~ lily$     {"id":13, "name": "Saline Nasal Mist", "department": "personal care", "aisle": "cold flu allergy", "price": 16.00},
+-bash: {id:13,: command not found
+:~ lily$     {"id":14, "name": "Fresh Scent Dishwasher Cleaner", "department": "household", "aisle": "dish detergents", "price": 4.99},
+-bash: {id:14,: command not found
+:~ lily$     {"id":15, "name": "Overnight Diapers Size 6", "department": "babies", "aisle": "diapers wipes", "price": 25.50},
+-bash: {id:15,: command not found
+:~ lily$     {"id":16, "name": "Mint Chocolate Flavored Syrup", "department": "snacks", "aisle": "ice cream toppings", "price": 4.50},
+-bash: {id:16,: command not found
+:~ lily$     {"id":17, "name": "Rendered Duck Fat", "department": "meat seafood", "aisle": "poultry counter", "price": 9.99},
+-bash: {id:17,: command not found
+:~ lily$     {"id":18, "name": "Pizza for One Suprema Frozen Pizza", "department": "frozen", "aisle": "frozen pizza", "price": 12.50},
+-bash: {id:18,: command not found
+:~ lily$     {"id":19, "name": "Gluten Free Quinoa Three Cheese & Mushroom Blend", "department": "dry goods pasta", "aisle": "grains rice dried goods", "price": 3.99},
+-bash: {id:19,: command not found
+:~ lily$     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
+-bash: {id:20,: command not found
+:~ lily$ ]
+-bash: ]: command not found
+:~ lily$ 
+:~ lily$ products = [
+-bash: products: command not found
+:~ lily$     {"id":1, "name": "Chocolate Sandwich Cookies", "department": "snacks", "aisle": "cookies cakes", "price": 3.50},
+-bash: {id:1,: command not found
+:~ lily$     {"id":2, "name": "All-Seasons Salt", "department": "pantry", "aisle": "spices seasonings", "price": 4.99},
+-bash: {id:2,: command not found
+:~ lily$     {"id":3, "name": "Robust Golden Unsweetened Oolong Tea", "department": "beverages", "aisle": "tea", "price": 2.49},
+-bash: {id:3,: command not found
+:~ lily$     {"id":4, "name": "Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce", "department": "frozen", "aisle": "frozen meals", "price": 6.99},
+-bash: {id:4,: command not found
+:~ lily$     {"id":5, "name": "Green Chile Anytime Sauce", "department": "pantry", "aisle": "marinades meat preparation", "price": 7.99},
+-bash: {id:5,: command not found
+:~ lily$     {"id":6, "name": "Dry Nose Oil", "department": "personal care", "aisle": "cold flu allergy", "price": 21.99},
+-bash: {id:6,: command not found
+:~ lily$     {"id":7, "name": "Pure Coconut Water With Orange", "department": "beverages", "aisle": "juice nectars", "price": 3.50},
+-bash: {id:7,: command not found
+:~ lily$     {"id":8, "name": "Cut Russet Potatoes Steam N' Mash", "department": "frozen", "aisle": "frozen produce", "price": 4.25},
+-bash: {id:8,: command not found
+:~ lily$     {"id":9, "name": "Light Strawberry Blueberry Yogurt", "department": "dairy eggs", "aisle": "yogurt", "price": 6.50},
+-bash: {id:9,: command not found
+:~ lily$     {"id":10, "name": "Sparkling Orange Juice & Prickly Pear Beverage", "department": "beverages", "aisle": "water seltzer sparkling water", "price": 2.99},
+-bash: {id:10,: command not found
+:~ lily$     {"id":11, "name": "Peach Mango Juice", "department": "beverages", "aisle": "refrigerated", "price": 1.99},
+-bash: {id:11,: command not found
+:~ lily$     {"id":12, "name": "Chocolate Fudge Layer Cake", "department": "frozen", "aisle": "frozen dessert", "price": 18.50},
+-bash: {id:12,: command not found
+:~ lily$     {"id":13, "name": "Saline Nasal Mist", "department": "personal care", "aisle": "cold flu allergy", "price": 16.00},
+-bash: {id:13,: command not found
+:~ lily$     {"id":14, "name": "Fresh Scent Dishwasher Cleaner", "department": "household", "aisle": "dish detergents", "price": 4.99},
+-bash: {id:14,: command not found
+:~ lily$     {"id":15, "name": "Overnight Diapers Size 6", "department": "babies", "aisle": "diapers wipes", "price": 25.50},
+-bash: {id:15,: command not found
+:~ lily$     {"id":16, "name": "Mint Chocolate Flavored Syrup", "department": "snacks", "aisle": "ice cream toppings", "price": 4.50},
+-bash: {id:16,: command not found
+:~ lily$     {"id":17, "name": "Rendered Duck Fat", "department": "meat seafood", "aisle": "poultry counter", "price": 9.99},
+-bash: {id:17,: command not found
+:~ lily$     {"id":18, "name": "Pizza for One Suprema Frozen Pizza", "department": "frozen", "aisle": "frozen pizza", "price": 12.50},
+-bash: {id:18,: command not found
+:~ lily$     {"id":19, "name": "Gluten Free Quinoa Three Cheese & Mushroom Blend", "department": "dry goods pasta", "aisle": "grains rice dried goods", "price": 3.99},
+-bash: {id:19,: command not found
+:~ lily$     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
+-bash: {id:20,: command not found
+:~ lily$ git initl
+git: 'initl' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+:~ lily$ git init
+Reinitialized existing Git repository in /Users/lily/.git/
+:~ lily$ print(2+2)
+-bash: syntax error near unexpected token `2+2'
+:~ lily$ 2+2
+-bash: 2+2: command not found
+:~ lily$ python3
+Python 3.6.1 |Anaconda 4.4.0 (x86_64)| (default, May 11 2017, 13:04:09) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 2+2
+4
+>>> git diff
+  File "<stdin>", line 1
+    git diff
+           ^
+SyntaxError: invalid syntax
+>>> git status 
+  File "<stdin>", line 1
+    git status 
+             ^
+SyntaxError: invalid syntax
+>>> exit()
+:~ lily$ git diff
+:~ lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.Rapp.history
+	.Rhistory
+	.Trash/
+	.anaconda/
+	.anyconnect
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_sessions/
+	.cisco/
+	.condarc
+	.cups/
+	.ipython/
+	.octave_hist
+	.python_history
+	.rstudio-desktop/
+	.ssh/
+	.viminfo
+	2044-hk1.R
+	Applications/
+	Books/
+	Desktop/
+	Documents/
+	Downloads/
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	anaconda/
+	octave-workspace
+
+nothing added to commit but untracked files present (use "git add" to track)
+:~ lily$ pw
+-bash: pw: command not found
+:~ lily$ pwd
+/Users/lily
+:~ lily$ mkdir shopping_cart project
+:~ lily$ cd shopping_cart project/
+:shopping_cart lily$ pwd
+/Users/lily/shopping_cart
+:shopping_cart lily$ git log
+fatal: your current branch 'master' does not have any commits yet
+:shopping_cart lily$ git init
+Initialized empty Git repository in /Users/lily/shopping_cart/.git/
+:shopping_cart lily$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+:shopping_cart lily$ atom
+:shopping_cart lily$ atom .
+:shopping_cart lily$ atom .
+:shopping_cart lily$ python3 shoppingcart.py
+hello
+:shopping_cart lily$ remove shopping_cart project
+-bash: remove: command not found
+:shopping_cart lily$ rm shopping_cart project
+rm: shopping_cart: No such file or directory
+rm: project: No such file or directory
+:shopping_cart lily$ pwd
+/Users/lily/shopping_cart
+:shopping_cart lily$ cd /Users/lily
+:~ lily$ rm shopping_cart
+rm: shopping_cart: is a directory
+:~ lily$ 
+:~ lily$ re -rf shopping_cart
+-bash: re: command not found
+:~ lily$ rm -rf shopping_cart
+:~ lily$ cd ~/Users/lily/python-practice/
+-bash: cd: /Users/lily/Users/lily/python-practice/: No such file or directory
+:~ lily$ cd /Users/lily/python-practice/
+-bash: cd: /Users/lily/python-practice/: No such file or directory
+:~ lily$ pwd
+/Users/lily
+:~ lily$ cd /Users/lily/desktop/python-practice/
+:python-practice lily$ pwd 
+/Users/lily/desktop/python-practice
+:python-practice lily$ mkdir shopping_cart
+:python-practice lily$ rm-rf shopping_cart
+-bash: rm-rf: command not found
+:python-practice lily$ rm -rf shopping_cart
+:python-practice lily$ touch shopping-cart.py
+:python-practice lily$ rm shopping-cart
+rm: shopping-cart: No such file or directory
+:python-practice lily$ rm -rf shopping-cart.py
+:python-practice lily$ rm -rf shopping_cart.py
+:python-practice lily$ rm shopping_cart.py
+rm: shopping_cart.py: No such file or directory
+:python-practice lily$ cd /Users/lily/desktop/python-practice/
+:python-practice lily$ pwd
+/Users/lily/desktop/python-practice
+:python-practice lily$ touch shopping-cart.py
+:python-practice lily$ atom .
+:python-practice lily$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	shopping-cart.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice lily$ cd /Users/lily/desktop/
+:desktop lily$ pwd
+/Users/lily/desktop
+:desktop lily$ mkdir python-practice2
+:desktop lily$ git init
+Initialized empty Git repository in /Users/lily/Desktop/.git/
+:desktop lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	....pdf
+	.Rapp.history
+	.Rhistory
+	.localized
+	1.png
+	2017年CFAL1+notes/
+	2350-2017 summer/
+	5530/
+	5zy-shopping_cart.py
+	Atom.app/
+	CAH_MainGame.pdf
+	CV/
+	book/
+	english/
+	grocery-project/
+	ivanka.docx
+	my info/
+	my material/
+	nyu-info-2335-70-201706/
+	nyu/
+	piano stave/
+	python-practice/
+	~$17 -- Lecture Notes _5 -- PCA.docx
+	~$17 -- Lecture Notes _7 -- MDS.docx
+	~$20-hk7-Haoyue.docx
+	~$2153-Haoyue Zhang.pptx
+	~$H GU 2920_Spring 001_Syllabus.docx
+	~$ang Haoyue－CV copy.doc
+	~$mework 4 – Bias.docx
+	~$mework Assignment _1.docx
+	~$mework2.docx
+	~$nal Exam Review Guide.docx
+	~$oject2 - Haoyue Zhang.docx
+	简写.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+:desktop lily$ cd /Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git init
+Initialized empty Git repository in /Users/lily/Desktop/python-practice2/.git/
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+:python-practice2 lily$ touch shopping_cart.py
+:python-practice2 lily$ atom .
+:python-practice2 lily$ pythong3 shopping_cart.py
+-bash: pythong3: command not found
+:python-practice2 lily$ python3 shopping_cart.py
+xx
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	shopping_cart.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice2 lily$ python3 shopping_cart.py
+xx
+:python-practice2 lily$ python3 shopping_cart.py
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	shopping_cart.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice2 lily$ python3 shopping_cart.py
+[{'id': 1, 'name': 'Chocolate Sandwich Cookies', 'department': 'snacks', 'aisle': 'cookies cakes', 'price': 3.5}, {'id': 2, 'name': 'All-Seasons Salt', 'department': 'pantry', 'aisle': 'spices seasonings', 'price': 4.99}, {'id': 3, 'name': 'Robust Golden Unsweetened Oolong Tea', 'department': 'beverages', 'aisle': 'tea', 'price': 2.49}, {'id': 4, 'name': 'Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce', 'department': 'frozen', 'aisle': 'frozen meals', 'price': 6.99}, {'id': 5, 'name': 'Green Chile Anytime Sauce', 'department': 'pantry', 'aisle': 'marinades meat preparation', 'price': 7.99}, {'id': 6, 'name': 'Dry Nose Oil', 'department': 'personal care', 'aisle': 'cold flu allergy', 'price': 21.99}, {'id': 7, 'name': 'Pure Coconut Water With Orange', 'department': 'beverages', 'aisle': 'juice nectars', 'price': 3.5}, {'id': 8, 'name': "Cut Russet Potatoes Steam N' Mash", 'department': 'frozen', 'aisle': 'frozen produce', 'price': 4.25}, {'id': 9, 'name': 'Light Strawberry Blueberry Yogurt', 'department': 'dairy eggs', 'aisle': 'yogurt', 'price': 6.5}, {'id': 10, 'name': 'Sparkling Orange Juice & Prickly Pear Beverage', 'department': 'beverages', 'aisle': 'water seltzer sparkling water', 'price': 2.99}, {'id': 11, 'name': 'Peach Mango Juice', 'department': 'beverages', 'aisle': 'refrigerated', 'price': 1.99}, {'id': 12, 'name': 'Chocolate Fudge Layer Cake', 'department': 'frozen', 'aisle': 'frozen dessert', 'price': 18.5}, {'id': 13, 'name': 'Saline Nasal Mist', 'department': 'personal care', 'aisle': 'cold flu allergy', 'price': 16.0}, {'id': 14, 'name': 'Fresh Scent Dishwasher Cleaner', 'department': 'household', 'aisle': 'dish detergents', 'price': 4.99}, {'id': 15, 'name': 'Overnight Diapers Size 6', 'department': 'babies', 'aisle': 'diapers wipes', 'price': 25.5}, {'id': 16, 'name': 'Mint Chocolate Flavored Syrup', 'department': 'snacks', 'aisle': 'ice cream toppings', 'price': 4.5}, {'id': 17, 'name': 'Rendered Duck Fat', 'department': 'meat seafood', 'aisle': 'poultry counter', 'price': 9.99}, {'id': 18, 'name': 'Pizza for One Suprema Frozen Pizza', 'department': 'frozen', 'aisle': 'frozen pizza', 'price': 12.5}, {'id': 19, 'name': 'Gluten Free Quinoa Three Cheese & Mushroom Blend', 'department': 'dry goods pasta', 'aisle': 'grains rice dried goods', 'price': 3.99}, {'id': 20, 'name': 'Pomegranate Cranberry & Aloe Vera Enrich Drink', 'department': 'beverages', 'aisle': 'juice nectars', 'price': 4.25}]
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	shopping_cart.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice2 lily$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'set up project'
+[master (root-commit) a75d431] set up project
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 24 insertions(+)
+ create mode 100644 shopping_cart.py
+:python-practice2 lily$ git log
+commit a75d43185270038b8045f9ec0f2ed815dcdb8bd9 (HEAD -> master)
+Author: Lily <lily@>
+Date:   Mon Jul 17 11:41:26 2017 -0400
+
+    set up project
+:python-practice2 lily$ git remote add origin git@github.com:lilyyyyyyyyy/shopping_cart.git
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ git status
+On branch master
+nothing to commit, working tree clean
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ pwd
+/Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git remote add origin git@github.com:lilyyyyyyyyy/shopping_cart.git
+fatal: remote origin already exists.
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ git pull 
+warning: no common commits
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From github.com:lilyyyyyyyyy/shopping_cart
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ git pull --help
+:python-practice2 lily$ rm -rf .git
+:python-practice2 lily$ pwd
+/Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../....pdf
+	../.Rapp.history
+	../.Rhistory
+	../.localized
+	../1.png
+	../2017年CFAL1+notes/
+	../2350-2017 summer/
+	../5530/
+	../5zy-shopping_cart.py
+	../Atom.app/
+	../CAH_MainGame.pdf
+	../CV/
+	../book/
+	../english/
+	../grocery-project/
+	../ivanka.docx
+	../my info/
+	../my material/
+	../nyu-info-2335-70-201706/
+	../nyu/
+	../piano stave/
+	../python-practice/
+	./
+	../~$17 -- Lecture Notes _5 -- PCA.docx
+	../~$17 -- Lecture Notes _7 -- MDS.docx
+	../~$20-hk7-Haoyue.docx
+	../~$2153-Haoyue Zhang.pptx
+	../~$H GU 2920_Spring 001_Syllabus.docx
+	../~$ang Haoyue－CV copy.doc
+	../~$mework 4 – Bias.docx
+	../~$mework Assignment _1.docx
+	../~$mework2.docx
+	../~$nal Exam Review Guide.docx
+	../~$oject2 - Haoyue Zhang.docx
+	../简写.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice2 lily$ pwd
+/Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git init .
+Initialized empty Git repository in /Users/lily/Desktop/python-practice2/.git/
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	shopping_cart.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice2 lily$ atom .
+:python-practice2 lily$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	shopping_cart.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+:python-practice2 lily$ git add .
+:python-practice2 lily$ python3 shopping_cart.py
+[{'id': 1, 'name': 'Chocolate Sandwich Cookies', 'department': 'snacks', 'aisle': 'cookies cakes', 'price': 3.5}, {'id': 2, 'name': 'All-Seasons Salt', 'department': 'pantry', 'aisle': 'spices seasonings', 'price': 4.99}, {'id': 3, 'name': 'Robust Golden Unsweetened Oolong Tea', 'department': 'beverages', 'aisle': 'tea', 'price': 2.49}, {'id': 4, 'name': 'Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce', 'department': 'frozen', 'aisle': 'frozen meals', 'price': 6.99}, {'id': 5, 'name': 'Green Chile Anytime Sauce', 'department': 'pantry', 'aisle': 'marinades meat preparation', 'price': 7.99}, {'id': 6, 'name': 'Dry Nose Oil', 'department': 'personal care', 'aisle': 'cold flu allergy', 'price': 21.99}, {'id': 7, 'name': 'Pure Coconut Water With Orange', 'department': 'beverages', 'aisle': 'juice nectars', 'price': 3.5}, {'id': 8, 'name': "Cut Russet Potatoes Steam N' Mash", 'department': 'frozen', 'aisle': 'frozen produce', 'price': 4.25}, {'id': 9, 'name': 'Light Strawberry Blueberry Yogurt', 'department': 'dairy eggs', 'aisle': 'yogurt', 'price': 6.5}, {'id': 10, 'name': 'Sparkling Orange Juice & Prickly Pear Beverage', 'department': 'beverages', 'aisle': 'water seltzer sparkling water', 'price': 2.99}, {'id': 11, 'name': 'Peach Mango Juice', 'department': 'beverages', 'aisle': 'refrigerated', 'price': 1.99}, {'id': 12, 'name': 'Chocolate Fudge Layer Cake', 'department': 'frozen', 'aisle': 'frozen dessert', 'price': 18.5}, {'id': 13, 'name': 'Saline Nasal Mist', 'department': 'personal care', 'aisle': 'cold flu allergy', 'price': 16.0}, {'id': 14, 'name': 'Fresh Scent Dishwasher Cleaner', 'department': 'household', 'aisle': 'dish detergents', 'price': 4.99}, {'id': 15, 'name': 'Overnight Diapers Size 6', 'department': 'babies', 'aisle': 'diapers wipes', 'price': 25.5}, {'id': 16, 'name': 'Mint Chocolate Flavored Syrup', 'department': 'snacks', 'aisle': 'ice cream toppings', 'price': 4.5}, {'id': 17, 'name': 'Rendered Duck Fat', 'department': 'meat seafood', 'aisle': 'poultry counter', 'price': 9.99}, {'id': 18, 'name': 'Pizza for One Suprema Frozen Pizza', 'department': 'frozen', 'aisle': 'frozen pizza', 'price': 12.5}, {'id': 19, 'name': 'Gluten Free Quinoa Three Cheese & Mushroom Blend', 'department': 'dry goods pasta', 'aisle': 'grains rice dried goods', 'price': 3.99}, {'id': 20, 'name': 'Pomegranate Cranberry & Aloe Vera Enrich Drink', 'department': 'beverages', 'aisle': 'juice nectars', 'price': 4.25}]
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'set up project'
+[master (root-commit) db21a73] set up project
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 24 insertions(+)
+ create mode 100644 shopping_cart.py
+:python-practice2 lily$ git remote -v
+:python-practice2 lily$ git add origin git@github.com:lilyyyyyyyyy/shopping_cart.git
+fatal: pathspec 'origin' did not match any files
+:python-practice2 lily$ git remote -v
+:python-practice2 lily$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+:python-practice2 lily$ git remote -v
+:python-practice2 lily$ git remote add origin git@github.com:lilyyyyyyyyy/shopping_cart.git
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ git push --help
+:python-practice2 lily$ cd ~/Users/lily
+-bash: cd: /Users/lily/Users/lily: No such file or directory
+:python-practice2 lily$ cd ~/Users/lily/
+-bash: cd: /Users/lily/Users/lily/: No such file or directory
+:python-practice2 lily$ cd /Users/lily
+:~ lily$ rm-rf .git
+-bash: rm-rf: command not found
+:~ lily$ rm -rf .git
+:~ lily$ cd ~/Users/lily/desktop/python-practice2
+-bash: cd: /Users/lily/Users/lily/desktop/python-practice2: No such file or directory
+:~ lily$ cd /Users/lily/Desktop/python-practice2
+:python-practice2 lily$ remote -v
+-bash: remote: command not found
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ git remote
+origin
+:python-practice2 lily$ cd /User/lily/
+-bash: cd: /User/lily/: No such file or directory
+:python-practice2 lily$ cd /Users/lily
+:~ lily$ git remote
+fatal: Not a git repository (or any of the parent directories): .git
+:~ lily$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+:~ lily$ cd /Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git status
+On branch master
+nothing to commit, working tree clean
+:python-practice2 lily$ python3 shopping_cart.py
+[{'id': 1, 'name': 'Chocolate Sandwich Cookies', 'department': 'snacks', 'aisle': 'cookies cakes', 'price': 3.5}, {'id': 2, 'name': 'All-Seasons Salt', 'department': 'pantry', 'aisle': 'spices seasonings', 'price': 4.99}, {'id': 3, 'name': 'Robust Golden Unsweetened Oolong Tea', 'department': 'beverages', 'aisle': 'tea', 'price': 2.49}, {'id': 4, 'name': 'Smart Ones Classic Favorites Mini Rigatoni With Vodka Cream Sauce', 'department': 'frozen', 'aisle': 'frozen meals', 'price': 6.99}, {'id': 5, 'name': 'Green Chile Anytime Sauce', 'department': 'pantry', 'aisle': 'marinades meat preparation', 'price': 7.99}, {'id': 6, 'name': 'Dry Nose Oil', 'department': 'personal care', 'aisle': 'cold flu allergy', 'price': 21.99}, {'id': 7, 'name': 'Pure Coconut Water With Orange', 'department': 'beverages', 'aisle': 'juice nectars', 'price': 3.5}, {'id': 8, 'name': "Cut Russet Potatoes Steam N' Mash", 'department': 'frozen', 'aisle': 'frozen produce', 'price': 4.25}, {'id': 9, 'name': 'Light Strawberry Blueberry Yogurt', 'department': 'dairy eggs', 'aisle': 'yogurt', 'price': 6.5}, {'id': 10, 'name': 'Sparkling Orange Juice & Prickly Pear Beverage', 'department': 'beverages', 'aisle': 'water seltzer sparkling water', 'price': 2.99}, {'id': 11, 'name': 'Peach Mango Juice', 'department': 'beverages', 'aisle': 'refrigerated', 'price': 1.99}, {'id': 12, 'name': 'Chocolate Fudge Layer Cake', 'department': 'frozen', 'aisle': 'frozen dessert', 'price': 18.5}, {'id': 13, 'name': 'Saline Nasal Mist', 'department': 'personal care', 'aisle': 'cold flu allergy', 'price': 16.0}, {'id': 14, 'name': 'Fresh Scent Dishwasher Cleaner', 'department': 'household', 'aisle': 'dish detergents', 'price': 4.99}, {'id': 15, 'name': 'Overnight Diapers Size 6', 'department': 'babies', 'aisle': 'diapers wipes', 'price': 25.5}, {'id': 16, 'name': 'Mint Chocolate Flavored Syrup', 'department': 'snacks', 'aisle': 'ice cream toppings', 'price': 4.5}, {'id': 17, 'name': 'Rendered Duck Fat', 'department': 'meat seafood', 'aisle': 'poultry counter', 'price': 9.99}, {'id': 18, 'name': 'Pizza for One Suprema Frozen Pizza', 'department': 'frozen', 'aisle': 'frozen pizza', 'price': 12.5}, {'id': 19, 'name': 'Gluten Free Quinoa Three Cheese & Mushroom Blend', 'department': 'dry goods pasta', 'aisle': 'grains rice dried goods', 'price': 3.99}, {'id': 20, 'name': 'Pomegranate Cranberry & Aloe Vera Enrich Drink', 'department': 'beverages', 'aisle': 'juice nectars', 'price': 4.25}]
+:python-practice2 lily$ git status
+On branch master
+nothing to commit, working tree clean
+:python-practice2 lily$ git diff
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier:10
+THE PRODUCT IDENTIFIER IS: 10
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index 70675e2..b9015b6 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -21,4 +21,6 @@ products = [
+     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
+ ]
+ 
+-print(products)
++product_id = input("Please input a valid product identifier:")
++
++print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'print the value of a single user input'
+[master 9b5f949] print the value of a single user input
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ git push -u origin master
+To github.com:lilyyyyyyyyy/shopping_cart.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:lilyyyyyyyyy/shopping_cart.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier:5
+THE PRODUCT IDENTIFIER IS: 5
+Please input a valid product identifier:6
+THE PRODUCT IDENTIFIER IS: 6
+Please input a valid product identifier:4
+THE PRODUCT IDENTIFIER IS: 4
+Please input a valid product identifier:2
+THE PRODUCT IDENTIFIER IS: 2
+Please input a valid product identifier:4
+THE PRODUCT IDENTIFIER IS: 4
+Please input a valid product identifier:^CTraceback (most recent call last):
+  File "shopping_cart.py", line 28, in <module>
+    product_id = input("Please input a valid product identifier:")
+KeyboardInterrupt
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index b9015b6..c3d64cd 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -21,6 +21,9 @@ products = [
+     {"id":20, "name": "Pomegranate Cranberry & Aloe Vera Enrich Drink", "department": "beverages", "aisle": "juice nectars", "price": 4.25}
+ ]
+ 
+-product_id = input("Please input a valid product identifier:")
++#product_id = input("Please input a valid product identifier:")
++#print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+ 
+-print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
++while True:
++   product_id = input("Please input a valid product identifier:")
++   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'use an infinite while loop'
+[master 90cc750] use an infinite while loop
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier:4
+THE PRODUCT IDENTIFIER IS: 4
+Please input a valid product identifier:5
+THE PRODUCT IDENTIFIER IS: 5
+Please input a valid product identifier:6
+THE PRODUCT IDENTIFIER IS: 6
+Please input a valid product identifier:DONE
+THANKS ALL DONE HERE
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index c3d64cd..82591e2 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -24,6 +24,14 @@ products = [
+ #product_id = input("Please input a valid product identifier:")
+ #print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+ 
++#while True:
++#   product_id = input("Please input a valid product identifier:")
++#   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
++
+ while True:
+-   product_id = input("Please input a valid product identifier:")
+-   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
++    product_id = input("Please input a valid product identifier:")
++    if product_id == "DONE":
++        print("THANKS ALL DONE HERE")
++        break
++    else:
++        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+:python-practice2 lily$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'stop the loop if the user inputs the word "DONE"'
+[master ce2b177] stop the loop if the user inputs the word "DONE"
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier:3
+Please input a valid product identifier:5
+Please input a valid product identifier:6
+Please input a valid product identifier:7
+Please input a valid product identifier:w
+Please input a valid product identifier:5
+Please input a valid product identifier:DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: ['3', '5', '6', '7', 'w', '5']
+:python-practice2 lily$ 
+:python-practice2 lily$ 
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'store them all in a single list and print the list after the user is "DONE".'
+[master bb2a313] store them all in a single list and print the list after the user is "DONE".
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+:python-practice2 lily$ git reset HEAD~ 
+Unstaged changes after reset:
+M	shopping_cart.py
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index 82591e2..aa8b345 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -28,10 +28,21 @@ products = [
+ #   product_id = input("Please input a valid product identifier:")
+ #   print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+ 
++#while True:
++#    product_id = input("Please input a valid product identifier:")
++#    if product_id == "DONE":
++#        print("THANKS ALL DONE HERE")
++#        break
++#    else:
++#        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
++
++product_ids = []
++
+ while True:
+     product_id = input("Please input a valid product identifier:")
+     if product_id == "DONE":
+-        print("THANKS ALL DONE HERE")
+         break
+     else:
+-        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
++        product_ids.append(product_id)
++
++print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
+
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git add ...
+fatal: pathspec '...' did not match any files
+:python-practice2 lily$ dit add .
+-bash: dit: command not found
+:python-practice2 lily$ git commit -m'store them all in a single list and print the list after the user is "DONE".'
+[master 4df2197] store them all in a single list and print the list after the user is "DONE".
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+:python-practice2 lily$ git diff
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier:8
+Please input a valid product identifier:1
+Please input a valid product identifier:3
+Please input a valid product identifier:DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: ['8', '1', '3']
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 75
+    print("Checkout Time: ", datetime.datetime.now().strftime"%Y-%m-%d %H:%M:%S")
+                                                                               ^
+SyntaxError: invalid syntax
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 89
+    total = running total + tax
+                        ^
+SyntaxError: invalid syntax
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 8
+Please input a valid product identifier, or 'DONE' if 16
+Please input a valid product identifier, or 'DONE' if 6
+Please input a valid product identifier, or 'DONE' if 8
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8, 16, 6, 8]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Traceback (most recent call last):
+  File "shopping_cart.py", line 75, in <module>
+    print("Checkout Time: ", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+NameError: name 'datetime' is not defined
+:python-practice2 lily$ from IPython import embed
+from: can't read /var/mail/IPython
+:python-practice2 lily$ import datetime
+-bash: import: command not found
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if DONE
+
+:python-practice2 lily$ 
+:python-practice2 lily$ 
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 8
+Please input a valid product identifier, or 'DONE' if DONE
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index aa8b345..9e1df42 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -36,13 +36,28 @@ products = [
+ #    else:
+ #        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+ 
++
++
++#product_ids = []
++
++#while True:
++#    product_id = input("Please input a valid product identifier:")
++#    if product_id == "DONE":
++#        break
++#    else:
++#        product_ids.append(product_id)
++
++#print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
++
++##Checkpoint2
++from IPython import embed
++import datetime
++
+ product_ids = []
+ 
+ while True:
+-    product_id = input("Please input a valid product identifier:")
++    product_id = input("Please input a valid product identifier, or 'DONE' if ")
+     if product_id == "DONE":
+         break
+     else:
+-        product_ids.append(product_id)
+-
+-print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
++        product_ids.append(int(product_id))
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 8
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:35:42
+---------------------------
+Shopping Cart Items
+Traceback (most recent call last):
+  File "shopping_cart.py", line 78, in <module>
+    product = look_up_product_by_id(product_id)
+NameError: name 'look_up_product_by_id' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 8
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:38:30
+---------------------------
+Shopping Cart Items
+Traceback (most recent call last):
+  File "shopping_cart.py", line 78, in <module>
+    product = look_up_product_by_id(product_id)
+NameError: name 'look_up_product_by_id' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 8
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:39:20
+---------------------------
+Shopping Cart Items
+ + Chocolate Sandwich Cookies($3.50)
+ + Chocolate Sandwich Cookies($3.50)
+---------------------------
+subtotal:  $7.00
+Plus NYC Sales Tax (8.875%):  $0.62
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if 20
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9, 20]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:39:59
+---------------------------
+Shopping Cart Items
+ + Chocolate Sandwich Cookies($3.50)
+ + Chocolate Sandwich Cookies($3.50)
+ + Chocolate Sandwich Cookies($3.50)
+---------------------------
+subtotal:  $10.50
+Plus NYC Sales Tax (8.875%):  $0.93
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:43:36
+---------------------------
+Shopping Cart Items
+Traceback (most recent call last):
+  File "shopping_cart.py", line 83, in <module>
+    product = look_up_product_by_id(product_id)
+  File "shopping_cart.py", line 68, in look_up_product_by_id
+    mathing_product = [product for product in products if products["id"]]
+  File "shopping_cart.py", line 68, in <listcomp>
+    mathing_product = [product for product in products if products["id"]]
+TypeError: list indices must be integers or slices, not str
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:46:18
+---------------------------
+Shopping Cart Items
+ + Chocolate Sandwich Cookies($3.50)
+ + Chocolate Sandwich Cookies($3.50)
+---------------------------
+Subtotal:  $7.00
+Plus NYC Sales Tax (8.875%):  $0.62
+Total:  $7.62
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:49:45
+---------------------------
+Shopping Cart Items
+Traceback (most recent call last):
+  File "shopping_cart.py", line 83, in <module>
+    product = look_up_product_by_id(product_id)
+  File "shopping_cart.py", line 69, in look_up_product_by_id
+    return mathing_product[0]
+NameError: name 'mathing_product' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:50:03
+---------------------------
+Shopping Cart Items
+Traceback (most recent call last):
+  File "shopping_cart.py", line 83, in <module>
+    product = look_up_product_by_id(product_id)
+  File "shopping_cart.py", line 69, in look_up_product_by_id
+    return matching_product[0]
+NameError: name 'matching_product' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+---------------------------
+MY GROCERY STORE
+---------------------------
+web:www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 15:50:42
+---------------------------
+Shopping Cart Items
+ + Chocolate Sandwich Cookies($3.50)
+ + Light Strawberry Blueberry Yogurt($6.50)
+---------------------------
+Subtotal:  $10.00
+Plus NYC Sales Tax (8.875%):  $0.89
+Total:  $10.89
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if 1
+Please input a valid product identifier, or 'DONE' if 9
+Please input a valid product identifier, or 'DONE' if DONE
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index aa8b345..9e1df42 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -36,13 +36,28 @@ products = [
+ #    else:
+ #        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+ 
++
++
++#product_ids = []
++
++#while True:
++#    product_id = input("Please input a valid product identifier:")
++#    if product_id == "DONE":
++#        break
++#    else:
++#        product_ids.append(product_id)
++
++#print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
++
++##Checkpoint2
++from IPython import embed
++import datetime
++
+ product_ids = []
+ 
+ while True:
+-    product_id = input("Please input a valid product identifier:")
++    product_id = input("Please input a valid product identifier, or 'DONE' if ")
+     if product_id == "DONE":
+         break
+     else:
+-        product_ids.append(product_id)
+-
+-print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
++        product_ids.append(int(product_id))
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 57
+    product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items: "")
+                                                                                                         ^
+SyntaxError: EOL while scanning string literal
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 
+Traceback (most recent call last):
+  File "shopping_cart.py", line 61, in <module>
+    product_ids.append(int(product_id))
+NameError: name 'product_ids' is not defined
+:python-practice2 lily$ 
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Traceback (most recent call last):
+  File "shopping_cart.py", line 61, in <module>
+    product_ids.append(int(product_id))
+NameError: name 'product_ids' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+:python-practice2 lily$ 
+  [Restored Jul 17, 2017, 4:02:15 PM]
+Last login: Mon Jul 17 09:38:05 on ttys000
+:~ lily$ pwd
+/Users/lily
+:~ lily$ cd /Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 9
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+Traceback (most recent call last):
+  File "shopping_cart.py", line 71, in <module>
+    running_total += product["price"]
+NameError: name 'running_total' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+Traceback (most recent call last):
+  File "shopping_cart.py", line 72, in <module>
+    print(" + " + product["name"] + product["price"])
+TypeError: must be str, not float
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+ + Chocolate Sandwich Cookies3.5
+ + Cut Russet Potatoes Steam N' Mash4.25
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 72
+    print(" + " + product["name"] + " str(product["price"])"")
+                                                       ^
+SyntaxError: invalid syntax
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 72
+    print(" + " + product["name"] + " str(product["price"])")
+                                                       ^
+SyntaxError: invalid syntax
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 8]
+ + Chocolate Sandwich Cookies3.5
+ + Cut Russet Potatoes Steam N' Mash4.25
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 9
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+ + Chocolate Sandwich Cookies3.5
+ + Light Strawberry Blueberry Yogurt6.5
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 9
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+SHOPPING CART ITEM IDENTIFIER INCLUDE: [1, 9]
+ + Chocolate Sandwich Cookies 3.5
+ + Light Strawberry Blueberry Yogurt 6.5
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 70
+    product = lookup_product_by_id(7)
+                                    ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 70
+    product = look_up_product_by_id(7)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 70
+    product = look_up_product_by_id(8)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 71
+    product = look_up_product_by_id(1)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 72
+    product = look_up_product_by_id(1)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 62
+    product = look_up_product_by_id(1)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 62
+    product = look_up_product_by_id(1)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 62
+    product = look_up_product_by_id(1)
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 65
+    print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+    ^
+IndentationError: unexpected indent
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+Traceback (most recent call last):
+  File "shopping_cart.py", line 72, in <module>
+    product = lookup_product_by_id(7)
+NameError: name 'lookup_product_by_id' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+Pure Coconut Water With Orange 3.5
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index aa8b345..b6f8dd0 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -36,13 +36,39 @@ products = [
+ #    else:
+ #        print("THE PRODUCT IDENTIFIER IS: " + str(product_id))
+ 
+-product_ids = []
+ 
+-while True:
+-    product_id = input("Please input a valid product identifier:")
+-    if product_id == "DONE":
+-        break
+-    else:
+-        product_ids.append(product_id)
+ 
+-print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
++#product_ids = []
++
++#while True:
++#    product_id = input("Please input a valid product identifier:")
++#    if product_id == "DONE":
++#        break
++#    else:
++#        product_ids.append(product_id)
++
++#print("SHOPPING CART ITEM IDENTIFIER INCLUDE: " + str(product_ids))
++
++##Checkpoint2
++#from IPython import embed
++#import datetime
++
++#product_ids = []
++#while True:
++#    product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items: ")
++#    if product_id == "DONE":
++#        break
++#    else:
++#        product_ids.append(int(product_id))
++
++product_ids = [1, 8, 6, 16, 6]
++print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
++
++
++def look_up_product_by_id(product_id):
++    matching_product = [product for product in products if product["id"] == product_id]
++    return matching_product[0]
++
++product = look_up_product_by_id(7)
++
++print(product["name"], product["price"])
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'identify a single valid product identifier and print its name and price'
+[master fe19caa] identify a single valid product identifier and print its name and price
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 34 insertions(+), 8 deletions(-)
+:python-practice2 lily$ python3 shopping_cart.py
+Traceback (most recent call last):
+  File "shopping_cart.py", line 64, in <module>
+    print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+NameError: name 'product_ids' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: []
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 65
+    print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+        ^
+SyntaxError: invalid syntax
+:python-practice2 lily$ python3 shopping_cart.py
+  File "shopping_cart.py", line 66
+    print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+        ^
+SyntaxError: invalid syntax
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+Chocolate Sandwich Cookies 3.5
+Cut Russet Potatoes Steam N' Mash 4.25
+Dry Nose Oil 21.99
+Mint Chocolate Flavored Syrup 4.5
+Dry Nose Oil 21.99
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index b6f8dd0..188e7e9 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -69,6 +69,6 @@ def look_up_product_by_id(product_id):
+     matching_product = [product for product in products if product["id"] == product_id]
+     return matching_product[0]
+ 
+-product = look_up_product_by_id(7)
+-
+-print(product["name"], product["price"])
++for product_id in product_ids:
++    product = look_up_product_by_id(product_id)
++    print(product["name"], product["price"])
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commmit -m'For each valid product identifier in the example list, look up the matching product and print its name and price.'
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+:python-practice2 lily$ git commit -m'For each valid product identifier in the example list, look up the matching product and print its name and price.'
+[master c2e18b4] For each valid product identifier in the example list, look up the matching product and print its name and price.
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+:python-practice2 lily$ git commit -m'For each valid product identifier in the example list, look up the matching product and print its name and price.'
+On branch master
+Changes not staged for commit:
+	modified:   shopping_cart.py
+
+no changes added to commit
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+Chocolate Sandwich Cookies 3.5
+ +  Chocolate Sandwich Cookies 3.5
+Cut Russet Potatoes Steam N' Mash 4.25
+ +  Cut Russet Potatoes Steam N' Mash 4.25
+Dry Nose Oil 21.99
+ +  Dry Nose Oil 21.99
+Mint Chocolate Flavored Syrup 4.5
+ +  Mint Chocolate Flavored Syrup 4.5
+Dry Nose Oil 21.99
+ +  Dry Nose Oil 21.99
+THE TOTAL PRICE IS 56.22999999999999
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+Chocolate Sandwich Cookies 3.5
+ +  Chocolate Sandwich Cookies 3.5
+Cut Russet Potatoes Steam N' Mash 4.25
+ +  Cut Russet Potatoes Steam N' Mash 4.25
+Dry Nose Oil 21.99
+ +  Dry Nose Oil 21.99
+Mint Chocolate Flavored Syrup 4.5
+ +  Mint Chocolate Flavored Syrup 4.5
+Dry Nose Oil 21.99
+ +  Dry Nose Oil 21.99
+THE TOTAL PRICE IS 21.99
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+Chocolate Sandwich Cookies 3.5
+ +  Chocolate Sandwich Cookies 3.5
+Cut Russet Potatoes Steam N' Mash 4.25
+ +  Cut Russet Potatoes Steam N' Mash 4.25
+Dry Nose Oil 21.99
+ +  Dry Nose Oil 21.99
+Mint Chocolate Flavored Syrup 4.5
+ +  Mint Chocolate Flavored Syrup 4.5
+Dry Nose Oil 21.99
+ +  Dry Nose Oil 21.99
+THE TOTAL PRICE IS 56.22999999999999
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+ +  Chocolate Sandwich Cookies 3.5
+ +  Cut Russet Potatoes Steam N' Mash 4.25
+ +  Dry Nose Oil 21.99
+ +  Mint Chocolate Flavored Syrup 4.5
+ +  Dry Nose Oil 21.99
+THE TOTAL PRICE IS 56.22999999999999
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+ +  Chocolate Sandwich Cookies 3.5
+ +  Cut Russet Potatoes Steam N' Mash 4.25
+ +  Dry Nose Oil 21.99
+ +  Mint Chocolate Flavored Syrup 4.5
+ +  Dry Nose Oil 21.99
+THE TOTAL PRICE IS 21.99
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+ +  Chocolate Sandwich Cookies 3.5
+ +  Cut Russet Potatoes Steam N' Mash 4.25
+ +  Dry Nose Oil 21.99
+ +  Mint Chocolate Flavored Syrup 4.5
+ +  Dry Nose Oil 21.99
+THE TOTAL PRICE IS 56.22999999999999
+:python-practice2 lily$ git diff
+diff --git a/shopping_cart.py b/shopping_cart.py
+index 188e7e9..c8f0b15 100644
+--- a/shopping_cart.py
++++ b/shopping_cart.py
+@@ -69,6 +69,11 @@ def look_up_product_by_id(product_id):
+     matching_product = [product for product in products if product["id"] == product_id]
+     return matching_product[0]
+ 
++running_total = 0
++
+ for product_id in product_ids:
+     product = look_up_product_by_id(product_id)
+-    print(product["name"], product["price"])
++    running_total += product["price"]
++    print(" + ", product["name"], product["price"])
++
++print("THE TOTAL PRICE IS", running_total)
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'add its price to a running-total of all prices'
+[master 56cff0b] add its price to a running-total of all prices
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+-------------------------------
+MY GROCERY STORE
+-------------------------------
+Web: www.mystore.com
+Phone: 1.123.456.7890
+Traceback (most recent call last):
+  File "shopping_cart.py", line 80, in <module>
+    print("Checkout Time: ", datetime.datetime.now().strftime("%Y-%m-%d %H:%m:%S"))
+NameError: name 'datetime' is not defined
+:python-practice2 lily$ python3 shopping_cart.py
+SHOPPING CART ITEM IDENTIFIERS INCLUDE: [1, 8, 6, 16, 6]
+-------------------------------
+MY GROCERY STORE
+-------------------------------
+Web: www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 16:07:40
+-------------------------------
+Shopping Cart Items:
+ + Chocolate Sandwich Cookies ($3.50)
+ + Cut Russet Potatoes Steam N' Mash ($4.25)
+ + Dry Nose Oil ($21.99)
+ + Mint Chocolate Flavored Syrup ($4.50)
+ + Dry Nose Oil ($21.99)
+-------------------------------
+Subtotal: $56.23
+Plus NYC Sales Tax (8.875%): $4.99
+Total: $61.22
+-------------------------------
+Thanks for your business! Please come again.
+:python-practice2 lily$ git add .
+:python-practice2 lily$ git commit -m'Print all required receipt components'
+[master 10ef3e1] Print all required receipt components
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 26 insertions(+), 3 deletions(-)
+:python-practice2 lily$ git commit -m'Print all required receipt components'
+On branch master
+Changes not staged for commit:
+	modified:   shopping_cart.py
+
+no changes added to commit
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+-------------------------------
+MY GROCERY STORE
+-------------------------------
+Web: www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 16:07:19
+-------------------------------
+Shopping Cart Items:
+ + Chocolate Sandwich Cookies ($3.50)
+ + Cut Russet Potatoes Steam N' Mash ($4.25)
+-------------------------------
+Subtotal: $7.75
+Plus NYC Sales Tax (8.875%): $0.69
+Total: $8.44
+-------------------------------
+Thanks for your business! Please come again.
+:python-practice2 lily$ python3 shopping_cart.py
+Please input a valid product identifier, or 'DONE' if there are no more items: 1
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: 6
+Please input a valid product identifier, or 'DONE' if there are no more items: 16
+Please input a valid product identifier, or 'DONE' if there are no more items: 8
+Please input a valid product identifier, or 'DONE' if there are no more items: DONE
+-------------------------------
+MY GROCERY STORE
+-------------------------------
+Web: www.mystore.com
+Phone: 1.123.456.7890
+Checkout Time:  2017-07-17 16:07:48
+-------------------------------
+Shopping Cart Items:
+ + Chocolate Sandwich Cookies ($3.50)
+ + Cut Russet Potatoes Steam N' Mash ($4.25)
+ + Dry Nose Oil ($21.99)
+ + Mint Chocolate Flavored Syrup ($4.50)
+ + Cut Russet Potatoes Steam N' Mash ($4.25)
+-------------------------------
+Subtotal: $38.49
+Plus NYC Sales Tax (8.875%): $3.42
+Total: $41.91
+-------------------------------
+Thanks for your business! Please come again.
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ git pull origin master
+warning: no common commits
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From github.com:lilyyyyyyyyy/shopping_cart
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+:python-practice2 lily$ git pull origin master --allow-unrelated-histories
+From github.com:lilyyyyyyyyy/shopping_cart
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ LICENSE   | 21 +++++++++++++++++++++
+ README.md |  1 +
+ 2 files changed, 22 insertions(+)
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+:python-practice2 lily$ git log
+commit a7b2e6dbea534914035759962795760d5758481c (HEAD -> master)
+Merge: 10ef3e1 55901d0
+Author: Lily <lily@>
+Date:   Mon Jul 17 16:42:22 2017 -0400
+
+    Merge branch 'master' of github.com:lilyyyyyyyyy/shopping_cart
+
+commit 10ef3e11023e4f50531cc65d59b58f4e0da0d1da
+Author: Lily <lily@>
+Date:   Mon Jul 17 16:36:42 2017 -0400
+
+    Print all required receipt components
+
+commit 56cff0b38b336464f6df015bdcea5d532f141eeb
+Author: Lily <lily@>
+Date:   Mon Jul 17 16:31:32 2017 -0400
+
+    add its price to a running-total of all prices
+
+commit c2e18b47957b9a8c74fc14f98005f070c437d1e4
+Author: Lily <lily@>
+Date:   Mon Jul 17 16:24:20 2017 -0400
+
+    For each valid product identifier in the example list, look up the matching product and print its name and price.
+
+commit fe19caae5aa3a3e3bad4cca43f994f2daaa4a85b
+Author: Lily <lily@>
+Date:   Mon Jul 17 16:19:54 2017 -0400
+
+    identify a single valid product identifier and print its name and price
+
+commit 4df2197f557e9f0c7a9b139af989565b3c8b4047
+Author: Lily <lily@>
+Date:   Mon Jul 17 15:12:44 2017 -0400
+
+    store them all in a single list and print the list after the user is "DONE".
+
+commit ce2b177c42f210430e41a05663bba05e8dbc00a2
+Author: Lily <lily@>
+Date:   Mon Jul 17 14:53:20 2017 -0400
+
+    stop the loop if the user inputs the word "DONE"
+
+commit 90cc750f83c4d3d8f7e51be14d920da69be77206
+Author: Lily <lily@>
+Date:   Mon Jul 17 14:51:45 2017 -0400
+
+
+:python-practice2 lily$ git pull origin master
+From github.com:lilyyyyyyyyy/shopping_cart
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+:python-practice2 lily$ git push origin master
+Counting objects: 29, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (29/29), 4.23 KiB | 0 bytes/s, done.
+Total 29 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To github.com:lilyyyyyyyyy/shopping_cart.git
+   55901d0..a7b2e6d  master -> master
+:python-practice2 lily$ git clone https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git
+Cloning into 'nyu-info-2335-70-201706'...
+remote: Counting objects: 1064, done.
+remote: Total 1064 (delta 0), reused 0 (delta 0), pack-reused 1063
+Receiving objects: 100% (1064/1064), 10.68 MiB | 2.93 MiB/s, done.
+Resolving deltas: 100% (422/422), done.
+:python-practice2 lily$ cd nyu-info-2335-70-201706
+:nyu-info-2335-70-201706 lily$ git remote -v
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (fetch)
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (push)
+:nyu-info-2335-70-201706 lily$ git log
+commit 1950dc5ff5ad45fe276d512857ec736eec69b10e (HEAD -> master, origin/master, origin/HEAD)
+Merge: 2816b07 41d456b
+Author: MJ Rossetti <s2t2@users.noreply.github.com>
+Date:   Wed Jul 12 13:23:33 2017 -0400
+
+    Merge branch 'master' into master
+
+commit 41d456b81b22bc08256b7b7ad1d181cf894c4adf
+Author: aeg486 <aeg486@stern.nyu.edu>
+Date:   Wed Jul 12 13:22:14 2017 -0400
+
+    Groceries Submission (#88)
+    
+    * Create aeg486.md
+    
+    * add url to submissions
+
+commit c1fc085300b4b24fda9f3026de439518da5fbe0e
+Author: MJ Rossetti <s2t2@users.noreply.github.com>
+Date:   Wed Jul 12 13:20:06 2017 -0400
+
+    Resolve conflicts in Groceries Project Submission (#108)
+    
+    * Create NarcissuYY.md
+
+:nyu-info-2335-70-201706 lily$ git pull upstream master
+fatal: 'upstream' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+:nyu-info-2335-70-201706 lily$ git git pull origin master 
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+:nyu-info-2335-70-201706 lily$ git pull origin master 
+From https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+:nyu-info-2335-70-201706 lily$ git push -u origin master
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git/'
+:nyu-info-2335-70-201706 lily$   git remote -v
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (fetch)
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (push)
+:nyu-info-2335-70-201706 lily$ git remote add upstream https://github.com/prof-rossetti/nyu-info-2335-70-201706.git
+:nyu-info-2335-70-201706 lily$ git remote -v
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (fetch)
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (push)
+upstream	https://github.com/prof-rossetti/nyu-info-2335-70-201706.git (fetch)
+upstream	https://github.com/prof-rossetti/nyu-info-2335-70-201706.git (push)
+:nyu-info-2335-70-201706 lily$ git pull upstream master
+remote: Counting objects: 266, done.
+remote: Total 266 (delta 96), reused 97 (delta 96), pack-reused 169
+Receiving objects: 100% (266/266), 31.37 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (194/194), completed with 19 local objects.
+From https://github.com/prof-rossetti/nyu-info-2335-70-201706
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Auto-merging projects/groceries/submissions.csv
+CONFLICT (content): Merge conflict in projects/groceries/submissions.csv
+Automatic merge failed; fix conflicts and then commit the result.
+:nyu-info-2335-70-201706 lily$ git fetch upstream
+remote: Counting objects: 542, done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 542 (delta 239), reused 245 (delta 235), pack-reused 293
+Receiving objects: 100% (542/542), 1.31 MiB | 0 bytes/s, done.
+Resolving deltas: 100% (322/322), completed with 57 local objects.
+From https://github.com/prof-rossetti/nyu-info-2335-70-201706
+ * [new branch]      amazonwong-master -> upstream/amazonwong-master
+ * [new branch]      assignments       -> upstream/assignments
+ * [new branch]      class-1-rx        -> upstream/class-1-rx
+ * [new branch]      class-2           -> upstream/class-2
+ * [new branch]      class-3           -> upstream/class-3
+ * [new branch]      class-3-rx        -> upstream/class-3-rx
+ * [new branch]      class-3-rxx       -> upstream/class-3-rxx
+ * [new branch]      class-4           -> upstream/class-4
+ * [new branch]      class-4-rx        -> upstream/class-4-rx
+ * [new branch]      class-5           -> upstream/class-5
+ * [new branch]      class-5-rx        -> upstream/class-5-rx
+ * [new branch]      class-6           -> upstream/class-6
+ * [new branch]      dyk281-master     -> upstream/dyk281-master
+ * [new branch]      free-prop         -> upstream/free-prop
+ * [new branch]      mimiles-master    -> upstream/mimiles-master
+ * [new branch]      rb-overview       -> upstream/rb-overview
+ * [new branch]      syllabus          -> upstream/syllabus
+:nyu-info-2335-70-201706 lily$ git reset --hard upstream/master
+HEAD is now at 1fd6d27 submission of shopping cart assignment (#155)
+:nyu-info-2335-70-201706 lily$ git push origin master --force
+Username for 'https://github.com': lilyyyyyyyyy
+Password for 'https://lilyyyyyyyyy@github.com': 
+Counting objects: 269, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (103/103), done.
+Writing objects: 100% (269/269), 29.85 KiB | 0 bytes/s, done.
+Total 269 (delta 198), reused 233 (delta 164)
+remote: Resolving deltas: 100% (198/198), completed with 17 local objects.
+To https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git
+ + 1950dc5...1fd6d27 master -> master (forced update)
+:nyu-info-2335-70-201706 lily$ git diff
+diff --git a/projects/shopping-cart/submissions.csv b/projects/shopping-cart/submissions.csv
+index 0d29a7c..04b28ad 100644
+--- a/projects/shopping-cart/submissions.csv
++++ b/projects/shopping-cart/submissions.csv
+@@ -12,4 +12,5 @@ selyukin, https://github.com/selyukin/python_practice/
+ s2t2, https://github.com/s2t2/shopping-cart-project
+ s2t2, https://github.com/s2t2/shopping-cart-project/tree/filez
+ tadub, https://github.com/tadub/shopping-cart
++lilyyyyyyyyy, https://github.com/lilyyyyyyyyy/shopping_cart
+ etc., etc.
+:nyu-info-2335-70-201706 lily$ git push origin master
+Everything up-to-date
+:nyu-info-2335-70-201706 lily$ git status 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   projects/shopping-cart/submissions.csv
+
+no changes added to commit (use "git add" and/or "git commit -a")
+:nyu-info-2335-70-201706 lily$ git add .
+:nyu-info-2335-70-201706 lily$ git commit -m 'submission-lilyyyyyyyy'
+[master e5eaa12] submission-lilyyyyyyyy
+ Committer: Lily <lily@>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+:nyu-info-2335-70-201706 lily$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+:nyu-info-2335-70-201706 lily$ git push origin master
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 427 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git
+   1fd6d27..e5eaa12  master -> master
+:nyu-info-2335-70-201706 lily$ git diff
+:nyu-info-2335-70-201706 lily$ git pull upstream master
+From https://github.com/prof-rossetti/nyu-info-2335-70-201706
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+:nyu-info-2335-70-201706 lily$ git push origin master
+Everything up-to-date
+:nyu-info-2335-70-201706 lily$ git log
+commit e5eaa1286bbf3b2beddb78697634c3af226fa3ef (HEAD -> master, origin/master, origin/HEAD)
+Author: Lily <lily@>
+Date:   Mon Jul 17 17:45:21 2017 -0400
+
+    submission-lilyyyyyyyy
+
+commit 1fd6d27ac5db9ab6a25ebd31f898bcb2224e4512 (upstream/master)
+Author: Marc Barakat <marc.barakat@lucusadvisors.com>
+Date:   Mon Jul 17 14:03:25 2017 -0400
+
+    submission of shopping cart assignment (#155)
+    
+    * human software project submission
+    
+    * submission of groceries assignment for marcbarakat
+    
+    * Restore final row
+
+commit c8f94f0909f58b737bb833ff93ac20762d3993f8
+Author: danmikus <daniel.j.mikus@gmail.com>
+Date:   Mon Jul 17 13:55:56 2017 -0400
+
+    Adding github user and link to submission.csv (#153)
+    
+    * Adding github user and link to submission.csv
+    
+    * Maintain alpha order
+
+:nyu-info-2335-70-201706 lily$ git show
+commit e5eaa1286bbf3b2beddb78697634c3af226fa3ef (HEAD -> master, origin/master, origin/HEAD)
+Author: Lily <lily@>
+Date:   Mon Jul 17 17:45:21 2017 -0400
+
+    submission-lilyyyyyyyy
+
+diff --git a/projects/shopping-cart/submissions.csv b/projects/shopping-cart/submissions.csv
+index 0d29a7c..04b28ad 100644
+--- a/projects/shopping-cart/submissions.csv
++++ b/projects/shopping-cart/submissions.csv
+@@ -12,4 +12,5 @@ selyukin, https://github.com/selyukin/python_practice/
+ s2t2, https://github.com/s2t2/shopping-cart-project
+ s2t2, https://github.com/s2t2/shopping-cart-project/tree/filez
+ tadub, https://github.com/tadub/shopping-cart
++lilyyyyyyyyy, https://github.com/lilyyyyyyyyy/shopping_cart
+ etc., etc.
+:nyu-info-2335-70-201706 lily$ git remote -v
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (fetch)
+origin	https://github.com/lilyyyyyyyyy/nyu-info-2335-70-201706.git (push)
+upstream	https://github.com/prof-rossetti/nyu-info-2335-70-201706.git (fetch)
+upstream	https://github.com/prof-rossetti/nyu-info-2335-70-201706.git (push)
+:nyu-info-2335-70-201706 lily$ cd: /Users/lily/Users/lily/Desktop/python-practice/
+-bash: cd:: command not found
+:nyu-info-2335-70-201706 lily$ cd /Users/lily/Users/lily/Desktop/python-practice/
+-bash: cd: /Users/lily/Users/lily/Desktop/python-practice/: No such file or directory
+:nyu-info-2335-70-201706 lily$ cd /Users/lily/Desktop/python-practice2
+:python-practice2 lily$ git remote -v
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (fetch)
+origin	git@github.com:lilyyyyyyyyy/shopping_cart.git (push)
+:python-practice2 lily$ 

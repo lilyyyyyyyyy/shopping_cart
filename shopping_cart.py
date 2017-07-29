@@ -52,20 +52,17 @@ products = [
 ##Checkpoint2
 #from IPython import embed
 #import datetime
-
-#product_ids = []
-#while True:
-#    product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items: ")
-#    if product_id == "DONE":
-#        break
-#    else:
-#        product_ids.append(int(product_id))
 from IPython import embed
 import datetime
 
 
-product_ids = [1, 8, 6, 16, 6]
-print("SHOPPING CART ITEM IDENTIFIERS INCLUDE:", product_ids)
+product_ids = []
+while True:
+    product_id = input("Please input a valid product identifier, or 'DONE' if there are no more items: ")
+    if product_id == "DONE":
+        break
+    else:
+        product_ids.append(int(product_id))
 
 
 def look_up_product_by_id(product_id):
@@ -73,6 +70,7 @@ def look_up_product_by_id(product_id):
     return matching_product[0]
 
 running_total = 0
+
 # PRINT RECEIPT
 
 print("-------------------------------")
